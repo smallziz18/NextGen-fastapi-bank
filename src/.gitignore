@@ -1,7 +1,8 @@
 *.idea
 .DS_Store
 .idea
-
+/.jbeval/
+/.idea/
 
 # Byte-compiled / optimized / DLL files
 
