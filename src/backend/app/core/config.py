@@ -2,7 +2,7 @@ from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from typing import Literal
 
-BASE_DIR = Path(__file__).parent.parent.parent.parent  # ajuste selon la profondeur
+BASE_DIR = Path(__file__).parent.parent.parent.parent
 ENV_FILE = BASE_DIR / ".envs/.env"
 
 class Settings(BaseSettings):
@@ -18,4 +18,4 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
-print("Loaded settings:", settings.model_dump())
+

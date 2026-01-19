@@ -15,7 +15,6 @@ __pycache__/
 
 # C extensions
 *.so
-s
 
 # Distribution / packaging
 .Python
@@ -230,3 +229,4 @@ __marimo__/
 
 /.jbeval/*
 /.envs/
+/backend/logs/

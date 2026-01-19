@@ -2,10 +2,6 @@ from fastapi import FastAPI
 
 from backend.app.api.main import api_router
 from backend.app.core.config import settings
-print(settings)
-from pathlib import Path
-
-
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
