@@ -3,6 +3,7 @@
 .idea
 /.jbeval/
 /.idea/
+../.idea/*
 /.envs/*
 !.envs/env.example
 
