@@ -26,5 +26,7 @@ async def get_session() -> AsyncGenerator[AsyncSession, None]:
         finally: await session.close()
 
 
-def init_db() -> None:
-    pass
+async def init_db():
+    """Initialize database tables"""
+    # Pour l'instant, juste un log pour confirmer que ça fonctionne
+    logger.info("Database initialized")
